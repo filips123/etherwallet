@@ -32,8 +32,8 @@ X_Advanced                      :  'Samo za napredne uporabnike.',
 X_HelpfulLinks                  :  'Uporabne povezave in pogosta vprašanja',
 X_HelpfulLinks_1                :  'Kako dostopati do svoje denarnice',
 X_HelpfulLinks_2                :  'Izgubil sem zasebni ključ',
-X_HelpfulLinks_3                :  'Mojzasebni ključ odpre drug naslov',
-X_HelpfulLinks_4                :  'Migrating to/from MyEtherWallet',
+X_HelpfulLinks_3                :  'Moj zasebni ključ odpre drug naslov',
+X_HelpfulLinks_4                :  'Prehod na/iz MyEtherWallet',
 X_Network                       :  'Omrežje', // aka "node" or "chain" - used in the dropdown in header
 X_Network_Custom                :  'Dodaj posebno omrežje',
 
