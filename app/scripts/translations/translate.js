@@ -18,6 +18,7 @@
   var pl = require('./pl');
   var pt = require('./pt');
   var ru = require('./ru');
+  var sl = require('./sl');
   var th = require('./th');
   var tr = require('./tr');
   var vi = require('./vi');
@@ -44,6 +45,7 @@
   $translateProvider.translations(pl.code, translate.marked(pl.data));
   $translateProvider.translations(pt.code, translate.marked(pt.data));
   $translateProvider.translations(ru.code, translate.marked(ru.data));
+  $translateProvider.translations(sl.code, translate.marked(sl.data));
   $translateProvider.translations(th.code, translate.marked(th.data));
   $translateProvider.translations(tr.code, translate.marked(tr.data));
   $translateProvider.translations(vi.code, translate.marked(vi.data));
