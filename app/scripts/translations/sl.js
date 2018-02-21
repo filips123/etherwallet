@@ -230,7 +230,7 @@ CONTRACT_Write                  :  'PIŠI',
 /* Chrome Extension */
 CX_error_1                      :  'Nimate shranjenih denarnic. Kliknite ["Dodaj denarnico"](/cx-wallet.html#add-wallet) za dodajanje!',
 CX_quicksend                    :  'Pošlji', // if no appropriate translation, just use "Send"
-CX_Tagline                      :  'Odprtokodna JavaScript Ethereum denarnica za Chrome',
+CX_Tagline                      :  'Odprtokodna JavaScript Ethereum denarnica za Google Chrome',
 CX_Warning_1                    :  'Naredite **zunanje varnostne kopije** za vsako denarnico. Izgubo podatkov v tem dodatku lahko povzroči veliko stvari, med drugim, tudi, če ga odstranite ali ponovno namestite. Ta dodatek je namenjen lažjemu dostopanju vaših denarnic, in **ni** varnostna kopija vaših  denarnic.',
 
 /* Decrypt Panel */
@@ -296,6 +296,130 @@ GETH_InvalidSender              :  '(geth-06) Invalid sender.',
 GETH_NegativeValue              :  '(geth-07) Negative value.',
 GETH_Nonce                      :  "(geth-08) This TX's [nonce](https://myetherwallet.github.io/knowledge-base/transactions/what-is-nonce.html) is too low. Try incrementing the nonce by pressing the Generate button again, or [replace the pending transaction](https://myetherwallet.github.io/knowledge-base/transactions/check-status-of-ethereum-transaction.html).",
 GETH_NonExistentAccount         :  '(geth-09) Account does not exist or account balance too low',
+
+/* Parity Error Messages */ /* TODO */
+PARITY_AlreadyImported          :  "(parity-01) A transaction with the same hash was already imported. It was probably already broadcast. To avoid duplicate transactions, check your address on [etherscan.io](https://etherscan.io) & wait 10 minutes before attempting to send again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
+PARITY_GasLimitExceeded         :  "(parity-02) Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html)",
+PARITY_InsufficientBalance      :  "(parity-03) Insufficient balance. The account you tried to send transaction from does not have enough funds. If you believe this is in error, try using the 'Send Entire Balance' button, or pressing generate again. Required (d+) and got: (d+). [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
+PARITY_InsufficientGasPrice     :  "(parity-04) There is another transaction with same nonce in the queue, or the transaction fee is too low. Try incrementing the nonce by clicking the Generate button again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
+PARITY_InvalidGasLimit          :  "(parity-05) Supplied gas limit is beyond limit. Try lowering the gas limit to 21000. [Learn More.](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html)",
+PARITY_LimitReached             :  "(parity-06) There are too many transactions in the queue. Your transaction was dropped due to limit. Try increasing the gas price. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
+PARITY_Old                      :  "(parity-07) There is already a transaction with this [nonce](https://myetherwallet.github.io/knowledge-base/transactions/what-is-nonce.html). Try incrementing the nonce by pressing the Generate button again, or [replace the pending transaction](https://myetherwallet.github.io/knowledge-base/transactions/check-status-of-ethereum-transaction.html).",
+PARITY_TooCheapToReplace        :  "(parity-08) TX Fee is too low. It does not satisfy your node's minimal fee (minimal: (d+), got: (d+)). Try increasing the gas price and/or gas limit. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
+
+/* Footer */
+FOOTER_1                        :  'Brezplačen, odprtokoden vmesnik za ustvarjanje in uporabo Ethereum denarnic. Enostavna in varna povezava z Ethereum verigo blokov. Pred uporabo denarnice večkrat preverite URL strani ( myetherwallet.com ).',
+FOOTER_1b                       :  'Ustvaril',
+FOOTER_2                        :  'Zahvaljujemo sevam za donacije',
+FOOTER_3                        :  'Denarnico ustvaril',
+FOOTER_4                        :  'Pogoji uporabe',
+
+/* Gas Price Limit */ /* TODO */
+GAS_LIMIT_Desc                  :  'Gas limit is the amount of gas to send with your TX. `TX fee` = gas price * gas limit & is paid to miners for including your TX in a block. Increasing this number will not get your TX mined faster. Sending ETH = `21000`. Sending Tokens = ~`200000`.',
+GAS_PRICE_Desc                  :  'Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `41 GWEI`.',
+
+/* Gen Wallet Updates */ /* TODO */
+GEN_desc                        :  'If you want to generate multiple wallets, you can do so here',
+GEN_Help_1                      :  'Use your',
+GEN_Help_2                      :  'to access your account.',
+GEN_Help_3                      :  'Your device * is * your wallet.',
+GEN_Help_4                      :  'Guides & FAQ',
+GEN_Help_5                      :  'How to Create a Wallet',
+GEN_Help_6                      :  'Getting Started',
+GEN_Help_7                      :  'Keep it safe · Make a backup · Don\'t share it with anyone · Don\'t lose it · It cannot be recovered if you lose it.',
+GEN_Help_8                      :  'Not Downloading a File?',
+GEN_Help_9                      :  'Try using Google Chrome',
+GEN_Help_10                     :  'Right click & save file as. Filename:',
+GEN_Help_11                     :  'Don\'t open this file on your computer',
+GEN_Help_12                     :  'Use it to unlock your wallet via MyEtherWallet (or Mist, Geth, Parity and other wallet clients.)',
+GEN_Help_13                     :  'How to Back Up Your Keystore File',
+GEN_Help_14                     :  'What are these Different Formats?',
+GEN_Help_15                     :  'Preventing loss &amp; theft of your funds.',
+GEN_Help_16                     :  'What are these Different Formats?',
+GEN_Help_17                     :  'Why Should I?',
+GEN_Help_18                     :  'To have a secondary backup.',
+GEN_Help_19                     :  'In case you ever forget your password.',
+GEN_Help_20                     :  'Cold Storage',
+GEN_Label_1                     :  'Enter a password',
+GEN_Label_2                     :  'Save your `Keystore` File.',
+GEN_Label_3                     :  'Save Your Address.',
+GEN_Label_4                     :  'Print paper wallet or a QR code.',
+GEN_Label_5                     :  'Save Your `Private Key`.',
+GEN_Placeholder_1               :  'Do NOT forget to save this!',
+GEN_SuccessMsg                  :  'Success! Your wallet has been generated.',
+GEN_Unlock                      :  'Unlock your wallet to see your address',
+GET_ConfButton                  :  'I understand. Continue.',
+
+/* MyEtherWallet Website */
+MEW_Tagline                     :  'Odprtokodna JavaScript Ethereum denarnica',
+MEW_Warning_1                   :  'Pred ustvarjanjem ali uporabo denarnice vedno preverite URL strani. Pazite se lažnih strani!',
+
+/* Mnemonic */ /* TODO */
+MNEM_1                          :  'Please select the address you would like to interact with.',
+MNEM_2                          :  'Your single HD mnemonic phrase can access a number of wallets / addresses. Please select the address you would like to interact with at this time.',
+MNEM_more                       :  'More Addresses',
+MNEM_prev                       :  'Previous Addresses',
+
+/* Sign Message */ /* TODO */
+MSG_date                        :  'Date',
+MSG_info1                       :  'Include the current date so the signature cannot be reused on a different date.',
+MSG_info2                       :  'Include your nickname and where you use the nickname so someone else cannot use it.',
+MSG_info3                       :  'Include a specific reason for the message so it cannot be reused for a different purpose.',
+MSG_message                     :  'Message',
+MSG_signature                   :  'Signature',
+MSG_verify                      :  'Verify Message',
+
+/* My Wallet */ /* TODO */
+MYWAL_Address                   :  'Wallet Address',
+MYWAL_Bal                       :  'Balance',
+MYWAL_Content_1                 :  'Warning! You are about to remove your wallet',
+MYWAL_Content_2                 :  'Be sure you have **saved the private key and/or Keystore File and the password** before you remove it.',
+MYWAL_Content_3                 :  'If you want to use this wallet with your MyEtherWallet CX in the future, you will need to manually re-add it using the private key/JSON and password.',
+MYWAL_Edit                      :  'Edit',
+MYWAL_Edit_2                    :  'Edit Wallet',
+MYWAL_Hide                      :  'Hide Wallet Info',
+MYWAL_Name                      :  'Wallet Name',
+MYWAL_Nick                      :  'Wallet Nickname',
+MYWAL_Remove                    :  'Remove',
+MYWAL_RemoveWal                 :  'Remove Wallet',
+MYWAL_View                      :  'View',
+MYWAL_Viewing                   :  'Viewing Wallet',
+MYWAL_WatchOnly                 :  'Your Watch-Only Accounts',
+
+/* Navigation */
+NAV_AddWallet                   :  'Dodaj denarnico',
+NAV_BulkGenerate                :  'Ustvari več denarnic',
+NAV_CheckTxStatus               :  'Preveri TX status',
+NAV_Contact                     :  'Kontakt',
+NAV_Contracts                   :  'Pametne pogodbe',
+NAV_DeployContract              :  'Ustvari pametno pogodbo',
+NAV_DomainSale                  :  'DomainSale',
+NAV_ENS                         :  'ENS',
+NAV_GenerateWallet              :  'Ustvari denarnico',
+NAV_GenerateWallet_alt          :  'Nova denarnica',
+NAV_Help                        :  'Pomoč',
+NAV_InteractContract            :  'Interakcija s pametno pogodbo',
+NAV_Multisig                    :  'Multisig',
+NAV_MyWallets                   :  'Moje denarnice',
+NAV_Offline                     :  'Pošlji brez povezave',
+NAV_SendEther                   :  'Pošlji ether in žetone',
+NAV_SendTokens                  :  'Pošlji žetone',
+NAV_SignMsg                     :  'Podpiši sporočilo',
+NAV_Swap                        :  'Zamenjava',
+NAV_TxStatus                    :  'TX stastus',
+NAV_ViewWallet                  :  'Prikaži informacije o denarnici',
+NAV_YourWallets                 :  'Vaše denarnice',
+
+/* Node Switcher */
+NODE_CTA                        :  'Shrani in uporabi omrežje po meri',
+NODE_Name                       :  'Ime omrežja',
+NODE_Port                       :  'Vrata omrežja',
+NODE_Subtitle                   :  'Za povezovanje na lokalno omrežje ...',
+NODE_Title                      :  'Nastavi omrežje po meri',
+NODE_Warning                    :  'Vaše omrežje mora uporabljati HTTPS, če se z njim želite povezati na MyEtherWallet.com. Lahko pa [prenesete in zaženete MyEtherWallet lokalno](https://github.com/kvhnuke/etherwallet/releases/latest) za povezavo na katerokoli omrežje. Lahko pa si priskrbite brezplačen SSL certifikat na [LetsEncrypt](https://letsencrypt.org/)',
+
+/* Nonce Description */ /* TODO */
+NONCE_Desc                      :  'The nonce is the number of transactions sent from a given address. It ensures transactions are sent in order & not more than once.',
 
 /*************************/
 
