@@ -5,7 +5,7 @@ sl.code = 'sl';
 sl.data = {
 
 GEN_Help_0                      :  'Že imate kakšno denarnico?',
-GEN_Help_MetaMask               :  'Enostavno! Zasebni ključi ostabnejo v MetaMasku, ne na lažni strani! Preizkusite še danes.',
+GEN_Help_MetaMask               :  'Enostavno! Zasebni ključi ostanejo v MetaMasku, ne na lažni strani! Preizkusite še danes.',
 
 GEN_Warning_1                   :  '**Ne izgubite je!** Če izgubite to datoteko, je ni mogoče obnoviti.',
 GEN_Warning_2                   :  '**Ne delite je!** Vaš denar bo lahko ukraden, če boste to datoteko uporabili na lažni strani.',
@@ -171,7 +171,7 @@ ONBOARD_whymew_content__2       :  'Niste odvisni od bank, vlade ali kogarkoli, 
 ONBOARD_whymew_content__3       :  'Niste se vam treba zanašati na to, kako bo banka ali menjalnice zavarovala vaš denar.',
 ONBOARD_whymew_content__4       :  'Če se vam ne zdi, da so te stvari pomembne, se vprašajte, zakaj so kriptovalute in veriga blokov pomembne. 😉',
 ONBOARD_whymew_content__5       :  'Če vam to ni všeč, uporabljajte [Coinbase](https://www.coinbase.com/) ali [Blockchain.info](https://blockchain.info/wallet/#/signup). Imajo navadne račune z uporabniškimi imeni in gesli.',
-ONBOARD_whymew_content__6       :  'Če ste prestrašeni ampak želite uporabljatui MEW, [kupite strojno denarnico](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html)! Tako bodo vaši ključi na varnem.',
+ONBOARD_whymew_content__6       :  'Če ste prestrašeni ampak želite uporabljati MEW, [kupite strojno denarnico](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html)! Tako bodo vaši ključi na varnem.',
 ONBOARD_why_title__alt          :  'Ampak ... zakaj?',
 ONBOARD_secure_title            :  'Kako se lahko zavarujem?',
 ONBOARD_secure_1_title          :  'Kako se lahko zavarujem pred napadalci?',
@@ -308,9 +308,9 @@ PARITY_Old                      :  "(parity-07) There is already a transaction w
 PARITY_TooCheapToReplace        :  "(parity-08) TX Fee is too low. It does not satisfy your node's minimal fee (minimal: (d+), got: (d+)). Try increasing the gas price and/or gas limit. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
 
 /* Footer */
-FOOTER_1                        :  'Brezplačen, odprtokoden vmesnik za ustvarjanje in uporabo Ethereum denarnic. Enostavna in varna povezava z Ethereum verigo blokov. Pred uporabo denarnice večkrat preverite URL strani ( myetherwallet.com ).',
+FOOTER_1                        :  'Brezplačen, odprtokoden vmesnik za ustvarjanje in uporabo Ethereum denarnic. Enostavna in varna povezava z Ethereum verigo blokov. Pred uporabo denarnice večkrat preverite URL strani (myetherwallet.com).',
 FOOTER_1b                       :  'Ustvaril',
-FOOTER_2                        :  'Zahvaljujemo sevam za donacije',
+FOOTER_2                        :  'Zahvaljujemo se vam za donacije',
 FOOTER_3                        :  'Denarnico ustvaril',
 FOOTER_4                        :  'Pogoji uporabe',
 
